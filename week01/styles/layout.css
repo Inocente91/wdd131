@@ -16,31 +16,13 @@ body {
 header {
   background: rgb(52, 52, 52);
   padding: 2em 0 2em 0;
+  flex: 5 5 150px;
 }
 
 .header {
   display: flex;
   flex: 1;
-  align-items: center;
-}
-
-.logo {
-  flex-direction: column;
-  flex: 1 1 100px;
-}
-
-.menu {
-  flex-direction: column;
-  flex: 1 1 100px;
-}
-
-.menu a {
-  text-decoration: none;
-  color: white;
-}
-
-.main-cta {
-  background: wheat;
+  justify-content: center;
 }
 
 
