@@ -105,7 +105,7 @@ main {
 
 .flag p {
   text-align: center;
-  padding-left: 12px;
+  padding-left: 1rem;
 }
 
 
@@ -141,8 +141,8 @@ hr {
 }
 
 .resources {
-  padding-top: 130px;
-  padding-left: 30px;
+  padding-top: 10.5rem;
+  padding-left: 2rem;
 }
 
 
