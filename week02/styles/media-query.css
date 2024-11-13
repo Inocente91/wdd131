@@ -12,6 +12,7 @@ header, main, footer {
   border: 1px solid #f94144;
   padding: 1rem;
   background-color: #f8961e;
+  align-items: center;
 }
 
 main {
@@ -25,4 +26,5 @@ section {
   padding: 1rem; 
   background-color: #fff;
 }
+
 
