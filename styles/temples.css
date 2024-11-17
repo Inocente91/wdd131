@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* The header start here*/
+
+/* General styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #1D3557;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #1D3557;
+    padding: 20px 10px;
+    border: none;
+    z-index: 1000;
+    text-align: center;
+  }
+
+  .menu li {
+    margin: 10px 0; 
+  }
+
+  .menu.show {
+    display: flex;
+    margin-top: 2.5rem;
+    padding: 2rem;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+
+/* The Header ends here*/
+
+/* The Main starts here*/
+
+.container {
+  display: grid;
+  margin-top: 1.2rem;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  place-items: center;
+
+}
+
+section {
+  max-width: 740px;
+  padding: 1rem; 
+  background-color: #fff;
+}
+
+figcaption {
+  font-size: smaller;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+img {
+  width: 20rem;
+  border-radius: 5rem 0.5rem 5rem 0.5rem;
+}
+
+.hover:hover {
+  box-shadow: 0 0 2.5rem #333;
+}
+
+/* The main sections ends here*/
+
+/* The footer starts here*/
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1D3557;
+  color: white;
+}
+
+footer p {
+  font-size: 0.9rem;
+  margin: 0.1rem;
+  padding: 0;
+}
