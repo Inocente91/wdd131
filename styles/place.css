@@ -1,15 +1,22 @@
+:root {
+  --primary-color: #006847;
+  --secondary-color: #CE1126;
+  --tertiary-color: #FFFFFF;
+  --font: 'Montserrat', sans-serif;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font);
   text-align: center;
   background: #ffff;
   overflow-x: hidden;
 }
 
 .header {
-  background-color: #006847;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
   padding: 1rem;
   font-size: 1.5rem;
   width: 100%;
@@ -28,7 +35,7 @@ img {
 }
 
 .data, .weather {
-  background-color: #fff;
+  background-color: var(--tertiary-color);
   padding: 1rem;
   margin: 1rem 0;
   margin-bottom: -1px;
@@ -43,8 +50,8 @@ img {
 }
 
 footer {
-  background: #CE1126;
-  color: white;
+  background: var(--secondary-color);
+  color: var(--tertiary-color);
   padding: 1rem;
   font-size: 1rem;
   width: 100%;
@@ -101,8 +108,8 @@ footer {
     position: relative;
     width: 100%;
     padding: 1rem;
-    background: #006847;
-    color: #fff;
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
     left: -1.5rem;
     text-align: left;
   }
