@@ -52,6 +52,7 @@ footer {
   background: var(--secondary-color);
   color: #FFFFFF;
   padding: 1rem;
+  font-weight: bold;
   font-size: 1rem;
   line-height: 1.5;
   overflow-x: hidden;
