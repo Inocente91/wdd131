@@ -17,7 +17,7 @@ body {
 }
 
 img {
-  width: 100%;
+  width: auto;
   height: 650px;
   object-fit: cover;
   overflow-x: hidden;
