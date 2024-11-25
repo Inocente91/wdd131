@@ -63,6 +63,10 @@ footer {
     overflow-x: hidden;
   }
 
+  h1 {
+    font-size: 3rem;
+  }
+
   picture {
     position: relative;
     width: 100%;
