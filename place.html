@@ -12,44 +12,41 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <script src="scripts/place.js" defer></script>
 </head>
-<body>
-  <header>
-    <h1>Mexico</h1>
-  </header>
-  <main>
-    <picture>
-      <source srcset="images/mexico.webp" media="(min-width: 1000px)">
-      <source srcset="images/women.webp" media="(min-width: 500px)">
-      <img src="images/women.webp" alt="Image of women with a custome for dia de muertos in Mexico.">
-  </picture>
-    <section class="data">
-      <h2>Data</h2>
-      <div class="titles">
-        <p>Area: <span>1,973,000 sq km</span></p>
-        <p>Population: <span>132,300,000</span></p>
-        <p>Capital: <span>Ciudad de Mexico</span></p>
-        <p>Languages: <span>Spanish & English</span></p>
-        <p>Currency: <span>Peso</span></p>
-        <p>Time Zone: <span>GMT-8</span></p>
-        <p>Calling Code: <span>+52</span></p>
-        <p>Internet TLD: <span>.mx</span></p>
-      </div>
-      </section>
-      <hr>
-    <aside class="weather">
-      <h2 id="text">Weather</h2>    
-      <img id="svg" src="images/weather.svg" alt="icon of wather">
-      <div class="titles">
-        <p>Temperature: <span>15°C</span></p>
-        <p>Conditions: <span>Mostly Cloud</span></p>
-        <p>Wind: <span>10 km/h</span></p>
-        <p>Wind Chill: <span>N/A °C</span></p>
-      </div> 
-    </aside>  
-  </main>  
-  <footer>
+<header class="header">
+  <h1>Mexico</h1>
+</header>
+<main>
+
+<picture>
+  <source srcset="images/mexico.webp" media="(min-width: 800px)">
+  <source srcset="images/women.webp" media="(max-width: 480px)">
+  <img src="images/women.webp" alt="Image of women with a custome for dia de muertos in Mexico.">
+</picture>
+
+<section class="data">
+  <h2>Data</h2>
+  <p><strong>Area:</strong> 1,973,000 sq km</p>
+  <p><strong>Population:</strong> 132,300,000/p>
+  <p><strong>Capital:</strong> Ciudad de Mexico</p>
+  <p><strong>Languages:</strong> Spanish & English</p>
+  <p><strong>Currency:</strong> Mexican Peso</p>
+  <p><strong>Time Zone:</strong> GMT-8</p>
+  <p><strong>Calling Code:</strong> +52</p>
+  <p><strong>Internet TLD:</strong> .mx</p>
+</section>
+
+<section class="weather">
+  <h2>Weather</h2>
+  <img id="svg" src="images/weather.svg" alt="Weather Icon" class="weather-icon">
+  <p><strong>Temperature:</strong> 15°C</p>
+  <p><strong>Conditions:</strong> Mostly Cloud</p>
+  <p><strong>Wind:</strong> 10 km/h/p>
+  <p><strong>Wind Chill:</strong> N/A °C</p>
+</section>    
+
+</main>
+<footer>
     <p>&copy;<span id="copyrightYear"></span> 🌮 Inocente Perez 🌮 Baja California, Mexico.</p>
     <p>Last Modified: <span id="lastModifiedDate"></span></p>    
-  </footer>
-</body>
+</footer>
 </html>
