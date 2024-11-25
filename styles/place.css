@@ -16,6 +16,10 @@ body {
   overflow-x: hidden;
 }
 
+h1 {
+  font-size: 1.5rem;
+}
+
 section {
   overflow-x: hidden;
 }
