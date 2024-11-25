@@ -59,6 +59,8 @@ footer {
 
 @media (min-width: 600px) {
 
+  
+
   main {
     position: relative;
   }
@@ -111,6 +113,18 @@ footer {
     left: -1.5rem;
     text-align: left;
     border-radius: 8px;
+  }
+
+  header::after {
+    content: ''; 
+    display: inline-block;
+    position:relative; 
+    background-image: url('../images/eagle.png');
+    background-size: contain; 
+    background-repeat: no-repeat;
+    width: 50px; 
+    height: 50px;
+    bottom: 2rem;
   }
 
   footer {
