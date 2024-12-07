@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* The header start here*/
+
+/* General styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #1D3557;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a:hover {
+  color: #A8DADC; 
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 500px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #1D3557;
+    border: none;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .menu li {
+    margin: 0.7rem 0; 
+  }
+
+  .menu.show {
+    display: flex;
+    height: 24rem;
+    margin-top: 4rem;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+}
+
+
+/* The Header ends here*/
+
+/* The Main starts here*/
+
+.container {
+  max-width: 100%;
+  display: grid;
+  margin: auto; 
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  place-items: center;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+
+figcaption {
+  font-size: smaller;
+  text-align: center;
+}
+
+
+section {
+  max-width: 740px;
+  padding: 1rem; 
+  background-color: rgb(216, 216, 216);
+  border-radius: .5rem;
+}
+
+
+h1 {
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+img {
+  width: 20rem;
+  height: 13rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  border-radius: .5rem;
+}
+
+
+
+
+
+
+.hover:hover {
+  box-shadow: 0 0 2.5rem #333;
+}
+
+/* The main sections ends here*/
+
+/* The footer starts here*/
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1D3557;
+  color: white;
+}
+
+footer p {
+  font-size: 0.9rem;
+  margin: 0.1rem;
+  padding: 0;
+}

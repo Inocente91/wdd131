@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Inocente Perez">
+  <meta name="description" content="Picture Album WDD 131 Dynamic Web Fundamentals Inocente Perez">
+  <title>Picture Album</title>
+  <link rel="stylesheet" href="styles/filtered-temples.css">
+  <link rel="stylesheet" href="styles/filtered-temples-large.css">
+  <script src="scripts/filtered-temples.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <header class="header">
+    <h1>Temple Album</h1>
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    <nav>
+      <ul class="menu">
+        <li><a href="#" data-filter="all">Home</a></li>
+        <li><a href="#" data-filter="old">Old</a></li>
+        <li><a href="#" data-filter="new">New</a></li>
+        <li><a href="#" data-filter="large">Large</a></li>
+        <li><a href="#" data-filter="small">Small</a></li>
+      </ul>
+    </nav>
+  </header>  
+  <main> 
+    <h2 class="middle">Home</h2>
+    <div id="temple-container" class="container"></div>     
+  </main>
+  <footer>              
+    <p>&copy;<span id="copyrightYear"></span> 🌮 Inocente Perez 🌮 Baja California, Mexico.</p>
+    <p>Last Modified: <span id="lastModifiedDate"></span></p>
+  </footer>  
+</body>
+</html>
