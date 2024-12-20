@@ -1,0 +1,217 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+}
+
+header {
+  background: #EB5B00;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+/* Form Container */
+form {
+  max-width: 650px;
+  padding: 2rem 2rem 2rem 2rem;
+  margin: 3rem auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* General Form Labels */
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* Input Fields and Select */
+input[type="text"], input[type="date"], select, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="date"]:focus, select:focus, textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+textarea {
+  height: 150px;
+}
+
+/* Product Name Section */
+.product-section {
+  background: #f9f9f9; /* Light background for this section */
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-section label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Rating Section */
+.rating-section {
+  background: #e9f7fc; /* Light blue background for this section */
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rating-section label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 2rem;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.rating input:checked ~ label {
+  color: gold;
+}
+
+.rating label:hover, .rating label:active {
+  color: #FFD700;
+}
+
+/* Date of Installation Section */
+.date-section {
+  background: #fff6e5; /* Soft yellow background for this section */
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.date-section label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Useful Features Section */
+.features-section {
+  background: #e0ffe0; /* Light green background for this section */
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.features-section label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Review Section */
+.review-section {
+  background: #f4f4f4; /* Light gray background for this section */
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-section label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Submit Button */
+input[type="submit"] {
+  padding: .4rem;
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+  /* Center the button */
+  display: block;
+  margin: 2rem auto; /* This centers the button horizontally */
+}
+
+
+input[type="submit"]:hover {
+  background: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+  background: #D91656;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  form {
+    padding: 1.5rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  input[type="submit"] {
+    font-size: 1rem;
+  }
+}
+
