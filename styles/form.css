@@ -65,7 +65,7 @@ textarea {
 
 /* Product Name Section */
 .product-section {
-  background: #c7c7c7; /* Light background for this section */
+  background:#f4f4f4; /* Light background for this section */
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 8px;
@@ -79,7 +79,7 @@ textarea {
 
 /* Rating Section */
 .rating-section {
-  background: #c7c7c7; /* Light blue background for this section */
+  background: #f4f4f4; /* Light blue background for this section */
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 8px;
@@ -102,7 +102,7 @@ textarea {
 
 .rating label {
   font-size: 2rem;
-  color: #c7c7c7;
+  color: #f4f4f4;
   cursor: pointer;
   transition: color 0.3s ease;
 }
@@ -117,7 +117,7 @@ textarea {
 
 /* Date of Installation Section */
 .date-section {
-  background: #c7c7c7; /* Soft yellow background for this section */
+  background: #f4f4f4; /* Soft yellow background for this section */
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 8px;
@@ -131,7 +131,7 @@ textarea {
 
 /* Useful Features Section */
 .features-section {
-  background: #c7c7c7; /* Light green background for this section */
+  background: #f4f4f4; /* Light green background for this section */
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 8px;
@@ -155,7 +155,7 @@ textarea {
 
 /* Review Section */
 .review-section {
-  background: #c7c7c7; /* Light gray background for this section */
+  background: #f4f4f4; /* Light gray background for this section */
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 8px;
