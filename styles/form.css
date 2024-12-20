@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background: #EB5B00;
+  background: hsl(0, 98%, 32%);
   color: white;
   padding: 2rem 0;
   text-align: center;
@@ -190,7 +190,7 @@ input[type="submit"]:hover {
 
 /* Footer Styling */
 footer {
-  background: #D91656;
+  background: #000000;
   padding: 1rem;
   color: white;
   text-align: center;
