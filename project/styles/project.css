@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+  font-family: "Montserrat", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: #00FF00;
+  text-align: center;
+}
+
+a:hover {
+  color: #FF6600;
+}
+
+header {
+  background-color: #0A0A0A;
+  padding: 10px 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+.hero {
+  width: 100%;
+  background-image: url('https://cdn.pixabay.com/photo/2021/11/22/14/23/computer-6816638_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  position: relative; /* Add relative positioning for the overlay */
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
+  z-index: 1; /* Place the overlay behind the content */
+}
+
+.hero h1, .hero p {
+  position: relative;
+  z-index: 2; /* Ensure the text stays above the overlay */
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+
+.gamer {
+  width: 20rem;
+  border-radius: 15rem 15rem 0rem 0rem;
+  margin: 3rem;
+  margin-bottom: -3.2rem;
+  box-shadow: 1rem rgba(27, 1, 223, 0.1); /* Add shadow */
+}
+
+.logo {
+  width: 6rem;
+}
+
+.featured {
+  display: flex; /* Enable Flexbox */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text inside elements */
+  height: 100vh; /* Make section fill the viewport height */
+  padding: 20px; /* Add some spacing */
+}
+
+.featured h2 {
+  margin-bottom: 1rem; /* Add space below the heading */
+}
+
+.featured article {
+  max-width: 800px; /* Optional: Limit the width of the content */
+}
+
+.featured iframe {
+  margin-top: 1rem; /* Add space above the video */
+  border-radius: 10px; /* Optional: Rounded corners for the video */
+}
+
+
+.featured, .tips, .setup {
+  padding: 20px;
+}
+
+.tips {
+  text-align: center;
+  width: 100%;
+  background-image: url('https://cdn.pixabay.com/photo/2021/08/16/18/00/nintendo-6550911_960_720.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  color: white;
+  padding: 40px;
+  position: relative;
+  height: 20rem;
+}
+
+.tips h2 {
+  margin-bottom: 13rem;
+}
+
+.tips-links {
+  display: flex;
+  justify-content: space-between; /* Space links to left and right */
+  width: 100%; /* Take full width for alignment */
+  max-width: 800px; /* Optional: Limit width of the links section */
+  padding: 0 20px; /* Add some horizontal padding */
+}
+
+.tips-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+h1, h2 {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+h3 {
+  color: #00FF00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+      padding: 20px;
+  }
+
+  nav ul {
+      flex-direction: column;
+  }
+
+  .featured, .tips, .setup {
+      padding: 10px;
+  }
+}

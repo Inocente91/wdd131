@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer's Haven</title>
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/project.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reviews.html">Game Reviews</a></li>
+                <li><a href="tips.html">Tips & Tutorials</a></li>
+                <li><a href="setup.html">My Gaming Setup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+          <div>
+            <h1>
+              THE NEXT<br> GENERATION <br> 
+              OF GAMING
+            </h1>
+            <p>
+              Your go-to spot for game reviews,<br>
+              tips, and gaming setup inspiration.
+            </p>
+            <img class="logo" src="images/logo.png" alt="logo of the website">
+          </div>
+          
+          <img class="gamer" src="images/gamer.webp" alt="">
+        </section>
+
+        <section class="featured">
+          <h2>Featured Game Review</h2>
+          <article>
+            <h3>Super Mario World</h3>
+            <p>This is a short overview of the Super Mario World. Stay tuned for more reviews and tips!</p>
+            <div>
+              <iframe 
+                width="900" 
+                height="600" 
+                src="https://www.youtube.com/embed/pCgRSWumfVM?start=133" 
+                title="Super Mario World" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
+            </div>
+          </article>
+        </section>   
+
+        <section class="tips">
+            <h2>Gaming Tips</h2>
+            <a href="#">Beginer Tips</a>
+            <a href="#">Advance Tips</a>
+        </section>
+
+        <section class="setup">
+            <h2>My Gaming Setup</h2>
+            <p>Check out my latest gaming gear and recommendations.</p>
+        </section>
+    </main>
+
+    <footer>
+      <p>&copy;<span id="copyrightYear"></span>  VargasMx7</p>
+      <p>Last Modified: <span id="lastModifiedDate"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
